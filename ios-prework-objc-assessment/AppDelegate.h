@@ -39,5 +39,9 @@
  @"y", 
  @"z" ] */
 
+-(NSArray *)generateArrayOfNumbers;
+-(NSArray *)generateArrayOfLetters;
+-(NSDictionary *)generateNumbersAndLettersDictionaryWithNumbers:(NSArray *)numbersArray letters:(NSArray *)lettersArray;
+
 @end
 
